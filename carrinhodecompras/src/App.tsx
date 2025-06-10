@@ -22,8 +22,12 @@ function App() {
     {
       path: '/products/:id',
       element: <Details />,
-    },{
+    }, {
       path: '/',
+      element: <Products />,
+    },
+    {
+      path: '/CarrinhoDeCompras',
       element: <Products />,
     }
   ]
