@@ -6,6 +6,7 @@ import Cart from './pages/Cart'
 import { Link, Route, Routes } from 'react-router-dom'
 import Header from './components/Header'
 import { CartProvider } from './context/cartContext'
+import Details from './pages/Deatils'
 
 function App() {
 
@@ -18,6 +19,10 @@ function App() {
       path: '/cart',
       element: <Cart />,
     },
+    {
+      path: '/products/:id',
+      element: <Details />,
+    }
   ]
 
   return (
