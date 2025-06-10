@@ -22,6 +22,9 @@ function App() {
     {
       path: '/products/:id',
       element: <Details />,
+    },{
+      path: '/',
+      element: <Products />,
     }
   ]
 
